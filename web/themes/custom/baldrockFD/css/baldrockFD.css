@@ -1,0 +1,15 @@
+#logo {max-height: 100px!important;}
+section.hero-header-img {position: relative;}
+section.hero-header-img img {object-fit: cover;width: -webkit-fill-available;height: 400px;margin-top:1rem;}
+section div.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }

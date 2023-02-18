@@ -1,0 +1,61 @@
+type: theme
+core_version_requirement: ^9.3 || ^10
+base theme: dxpr_theme
+
+name: 'Baldrock Fire Dept.'
+description: 'A drupal theme for the Baldrock Fire Department.'
+package: DXPR
+
+regions:
+  secondary_header: 'Secondary Header'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  highlighted: 'Hero Region'
+  page_title: 'Page Title'
+  help: 'Help'
+  content_top: 'Content Top'
+  content: 'Content'
+  content_bottom: 'Content Bottom'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'baldrockFD/global-styling'
+
+libraries-override:
+  baldrockFD/bootstrap-3: false
+  baldrockFD/bootstrap-theme: false
+  baldrockFD/jquery-ui: false
+  baldrockFD/footer-menu: false
+  baldrockFD/forms: false
+  baldrockFD/layout: false
+  baldrockFD/page-title: false
+  baldrockFD/typography: false
+  baldrockFD/dxpr-theme-full-screen-search: false
+  baldrockFD/dxpr-theme-header: false
+  baldrockFD/dxpr-theme-header--top: false
+  baldrockFD/dxpr-theme-header--side: false
+  baldrockFD/dxpr-theme-header--mobile: false
+  baldrockFD/dxpr-theme-secondary-header: false
+  baldrockFD/dxpr-theme-admin: false
+  baldrockFD/cubeportfolio: false
+  baldrockFD/drupal-breadcrumbs: false
+  baldrockFD/drupal-comments: false
+  baldrockFD/drupal-pager: false
+  baldrockFD/drupal-webform: false
+  baldrockFD/cms-bootstrap-core: false
+  baldrockFD/cms-bootstrap-blog: false
+  baldrockFD/cms-bootstrap-events: false
+  baldrockFD/cms-bootstrap-news: false
+  baldrockFD/cms-bootstrap-portfolio: false
+  baldrockFD/sooperthemes-premium-elements: false
+  baldrockFD/dxpr-theme-builder: false
+  baldrockFD/helper-classes: false
+
+# Information added by Drupal.org packaging script on 2022-12-19
+version: '5.0.1'
+project: 'baldrockFD'
+datestamp: 1671472944
